@@ -1,0 +1,9 @@
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-size: 16px;
+  color: #8DD6F9;
+  background-color: #2B3A42;
+}
