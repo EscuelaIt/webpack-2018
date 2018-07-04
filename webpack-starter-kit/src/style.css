@@ -7,3 +7,15 @@ html {
   color: #8DD6F9;
   background-color: #2B3A42;
 }
+
+.grid {
+  display: grid;
+}
+
+.flexbox {
+  display: flex;
+}
+
+.transform {
+  transform: rotate(180deg);
+}

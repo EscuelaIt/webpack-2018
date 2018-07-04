@@ -1,7 +1,7 @@
 import style from './style.css'
 import sass from './scss/main.scss'
 import data from './data.json'
-import logo from './img/webpack-logo.svg'
+import logo from './img/js-logo.png'
 
 const arr = [1, 2, 3],
   codeES6 = () => console.log(...arr),
