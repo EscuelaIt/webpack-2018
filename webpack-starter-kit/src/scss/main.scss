@@ -13,10 +13,7 @@
 }
 
 html {
-  font: {
-    size: 32px;
-    family: 'Chalet', sans-serif;
-  }
+  color: #FFF;
   background: {
     color: #2B3A42;
     image: url('./img/webpack-cube.svg');
@@ -28,5 +25,29 @@ html {
 }
 
 body {
-  background-color: rgba($color: #000000, $alpha: .75);
+  min-height: 100vh;
+  font-family: 'Chalet';
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#app {
+  padding: 2rem;
+  width: 80%;
+  text-align: center;
+  background-color: rgba($color: #2B3A42, $alpha: .9);
+}
+
+.Menu {
+  display: flex;
+  justify-content: space-evenly;
+
+  & a {
+    color: #8DD6FB;
+    transition: all .3s ease;
+
+    &:hover { opacity: .75; }
+  }
 }

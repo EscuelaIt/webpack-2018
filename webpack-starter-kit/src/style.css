@@ -1,21 +1,24 @@
 html {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
   font-family: sans-serif;
   font-size: 16px;
-  color: #8DD6F9;
-  background-color: #2B3A42;
 }
 
-.grid {
-  display: grid;
+*,
+*:after,
+*:before {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
 }
 
-.flexbox {
-  display: flex;
+img {
+  display: block;
+  max-width: 300px;
+  height: auto;
 }
 
-.transform {
-  transform: rotate(180deg);
+#app > *,
+#app > div > * {
+  margin: 1rem auto;
 }
