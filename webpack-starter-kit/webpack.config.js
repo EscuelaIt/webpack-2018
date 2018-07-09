@@ -9,7 +9,8 @@ module.exports = {
     vanilla: './src/hello_vanilla.js',
     react: './src/hello_react.js',
     vue: './src/hello_vue.js',
-    ts: './src/hello_ts.js'
+    ts: './src/hello_ts.js',
+    todo: './src/to_do.js'
   },
   output: {
     filename: '[name].[chunkhash].js'
@@ -107,6 +108,12 @@ module.exports = {
       hash: true,
       chunks: ['ts']
     }),
-    new VueLoaderPlugin()
+    new VueLoaderPlugin(),
+    new HtmlWebPackPugin({
+      template: './src/template.html',
+      filename: './to-do.html',
+      hash: true,
+      chunks: ['todo']
+    }),
   ]
 }

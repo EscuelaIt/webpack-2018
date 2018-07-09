@@ -20,6 +20,10 @@
     [
       "TypeScript",
       "hello-ts.html"
+    ],
+    [
+      "Vanilla ToDo",
+      "to-do.html"
     ]
   ]
 }
